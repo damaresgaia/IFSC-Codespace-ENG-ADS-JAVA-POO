@@ -1,10 +1,12 @@
 public class A1_0Teste {
-    public static void main(String[] args) {
-        // Declaração de variáveis inteiras e reais
-        int num1 = 10;      // Tipo inteiro (int)
-        double num2 = 10.5;      // Tipo real 
-        // Exibindo os valores das variáveis
-        System.out.println("Esse é o num1 " + num1);
-        System.out.println("Esse é o num2 " + num2);
-    }
+
+public static final double PI = 3.1416;
+
+   public static void main(String[] args) {
+       float valor = 12.123456789f;
+      
+       System.out.printf("Float com 6 casas decimais: %.4f\n", valor);
+       System.out.printf("Float em notação científica: %e\n", valor);
+       System.out.printf("Valor da constante PI: %.4f\n", PI);
+   }
 }
