@@ -18,10 +18,8 @@ public class MediaNumeros {
         System.out.print("Digite o quarto valor: ");
         double valor4 = scanner.nextDouble();
 
-        // Cálculo da soma
         double soma = valor1 + valor2 + valor3 + valor4;
 
-        // Cálculo da média
         double media = soma / 4;
 
         System.out.println("A média é: " + media);
